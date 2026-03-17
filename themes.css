@@ -1,0 +1,2 @@
+/* All sections use the same green — simple and consistent */
+.scheme-card { border-left-color: var(--green); }

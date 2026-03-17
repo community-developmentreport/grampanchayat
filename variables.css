@@ -1,0 +1,12 @@
+/* ── Design Tokens ── */
+:root {
+  --green:      #2D6A4F;
+  --green-light:#E8F4EE;
+  --border:     #D5D5D5;
+  --bg:         #FFFFFF;
+  --bg-alt:     #F7F7F7;
+  --text:       #1A1A1A;
+  --text-muted: #666666;
+  --nav-bg:     #1F4D39;
+  --nav-height: 52px;
+}

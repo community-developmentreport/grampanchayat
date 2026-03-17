@@ -1,0 +1,50 @@
+/* ── Hero ── */
+#hero {
+  min-height: 60vh;
+  background: var(--nav-bg);
+  color: #fff;
+  padding: calc(var(--nav-height) + 3rem) 5vw 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-eyebrow {
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.hero-title {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.hero-subtitle {
+  font-size: 0.95rem;
+  color: #bbb;
+  max-width: 560px;
+  margin-bottom: 2rem;
+  line-height: 1.65;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.hero-meta-item .val {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-meta-item .lbl {
+  font-size: 0.72rem;
+  color: #999;
+  margin-top: 0.1rem;
+}
